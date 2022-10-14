@@ -6,5 +6,4 @@ quantidade: number,
 preco: number,
 estado: string,
 img: string
-
 }

@@ -12,6 +12,10 @@ import { ProductListComponent } from './component/gamestore/product-list/product
 import { ProductItemComponent } from './component/gamestore/product-list/product-item/product-item.component';
 import { GamesService } from './component/gamestore/product-list/product-item.component.service';
 import { HttpClientModule } from '@angular/common/http';
+import { TermosComponent } from './component/termos/termos.component';
+import { QuemsomosComponent } from './component/quemsomos/quemsomos.component';
+import { TrocasComponent } from './component/trocas/trocas.component';
+import { PrivacidadeComponent } from './component/privacidade/privacidade.component';
 
 
 @NgModule({
@@ -23,7 +27,11 @@ import { HttpClientModule } from '@angular/common/http';
     GamestoreAppComponent,
     FiltersComponent,
     ProductListComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    TermosComponent,
+    QuemsomosComponent,
+    TrocasComponent,
+    PrivacidadeComponent
   ],
   imports: [
     BrowserModule,
