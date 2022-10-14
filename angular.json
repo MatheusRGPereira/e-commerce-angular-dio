@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/e-commerce-dio",
+            "outputPath": "dist/e-commerce-angular-dio",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "e-commerce-dio:build:production"
+              "browserTarget": "e-commerce-angular-dio:build:production"
             },
             "development": {
-              "browserTarget": "e-commerce-dio:build:development"
+              "browserTarget": "e-commerce-angular-dio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "e-commerce-dio:build"
+            "browserTarget": "e-commerce-angular-dio:build"
           }
         },
         "test": {
