@@ -1,6 +1,5 @@
 import { ModuleWithProviders, NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { AppComponent } from "./app.component";
 import { CadastroComponent } from "./component/cadastro/cadastro.component";
 import { CadastronovasenhaComponent } from "./component/cadastronovasenha/cadastronovasenha.component";
 import { CarrinhoComponent } from "./component/carrinho/carrinho.component";
