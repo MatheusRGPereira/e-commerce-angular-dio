@@ -20,6 +20,11 @@ export class GamesService
 
         return this.http.get(getAll);
     }
+    getByIdGames(){
+        var getByIdGames = this.url + 'produtos/{id}';
+
+        return this.http.get(getByIdGames);
+    }
 
 
 }

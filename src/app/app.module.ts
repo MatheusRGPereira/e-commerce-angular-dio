@@ -16,6 +16,16 @@ import { TermosComponent } from './component/termos/termos.component';
 import { QuemsomosComponent } from './component/quemsomos/quemsomos.component';
 import { TrocasComponent } from './component/trocas/trocas.component';
 import { PrivacidadeComponent } from './component/privacidade/privacidade.component';
+import { CadastroComponent } from './component/cadastro/cadastro.component';
+import { ConfirmacadastroComponent } from './component/confirmacadastro/confirmacadastro.component';
+import { ContatoComponent } from './component/contato/contato.component';
+import { ConfirmacontatoComponent } from './component/confirmacontato/confirmacontato.component';
+import { LoginComponent } from './component/login/login.component';
+import { RecuperarsenhaComponent } from './component/recuperarsenha/recuperarsenha.component';
+import { ConfirmarecupsenhaComponent } from './component/confirmarecupsenha/confirmarecupsenha.component';
+import { CadastronovasenhaComponent } from './component/cadastronovasenha/cadastronovasenha.component';
+import { ConfirmacadastrosenhaComponent } from './component/confirmacadastrosenha/confirmacadastrosenha.component';
+import { CarrinhoComponent } from './component/carrinho/carrinho.component';
 
 
 @NgModule({
@@ -31,7 +41,17 @@ import { PrivacidadeComponent } from './component/privacidade/privacidade.compon
     TermosComponent,
     QuemsomosComponent,
     TrocasComponent,
-    PrivacidadeComponent
+    PrivacidadeComponent,
+    CadastroComponent,
+    ConfirmacadastroComponent,
+    ContatoComponent,
+    ConfirmacontatoComponent,
+    LoginComponent,
+    RecuperarsenhaComponent,
+    ConfirmarecupsenhaComponent,
+    CadastronovasenhaComponent,
+    ConfirmacadastrosenhaComponent,
+    CarrinhoComponent
   ],
   imports: [
     BrowserModule,
