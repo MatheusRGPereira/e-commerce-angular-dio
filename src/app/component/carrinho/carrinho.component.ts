@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GamesService } from '../gamestore/product-list/product-item.component.service';
 
 @Component({
   selector: 'app-carrinho',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarrinhoComponent implements OnInit {
 
-  constructor() { }
+  games: any;
+  gamesService : GamesService
 
-  ngOnInit(): void {
+
+  constructor(gamesService: GamesService) { 
+    this.gamesService = gamesService;
   }
 
+  ngOnInit(): void {
+    this.games = this.gamesService.getGameById(this.games.id).subscribe((data =>{
+
+      this.games = data;
+      console.log(this.games);
+  }))
+  }
 }
+
+  
