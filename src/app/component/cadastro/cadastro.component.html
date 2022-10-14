@@ -73,8 +73,8 @@
             <label for="chkPromocoes" class="form-check-label">Desejo receber informações sobre promoções</label>
         </div>
         <div class="mb-3">
-            <a href="#" class="btn btn-light btn-outline-danger">Cancelar</a>
-            <input type="button" value="Criar meu cadastro" class="btn btn-danger" onclick="window.location.href='confirmacadastro.html'">
+            <a routerLink="" class="btn btn-light btn-outline-danger">Cancelar</a>
+            <input type="button" value="Criar meu cadastro" class="btn btn-danger" [routerLink]="['/confirmacadastro']">
         </div>
     </form>
 </div>

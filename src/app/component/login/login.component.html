@@ -17,10 +17,10 @@
                 <label for="chkLembrar" class="form-check-label">Lembrar de mim</label>
             </div>
 
-            <button class="btn btn-lg btn-danger" type="button">Entrar</button>
+            <button class="btn btn-lg btn-danger" type="button" [routerLink]="['']">Entrar</button>
 
-            <p class="mt-3">Ainda não é cadastrado? <a href="/cadastro.html">Clique aqui</a>para se cadastrar.</p>
-            <p class="mt-3">Esqueceu sua senha? <a href="recuperarSenha.html">Clique aqui</a>para recuperá-la.</p>
+            <p class="mt-3">Ainda não é cadastrado? <a routerLink="/cadastro">Clique aqui</a>para se cadastrar.</p>
+            <p class="mt-3">Esqueceu sua senha? <a routerLink="/recuperarsenha">Clique aqui</a>para recuperá-la.</p>
 
         </form>
     </div>

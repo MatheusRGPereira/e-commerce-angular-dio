@@ -23,7 +23,7 @@ const routes: Routes = [
   {path:'carrinho', component: CarrinhoComponent},
   {path:'confirmacadastro', component: ConfirmacadastroComponent},
   {path:'confirmacadastrosenha', component: ConfirmacadastrosenhaComponent},
-  {path:'confirmacontato', component: ConfirmacontatoComponent},
+  {path:'confirmacontato.component.html', component: ConfirmacontatoComponent},
   {path:'confirmarecupsenha', component: ConfirmarecupsenhaComponent },
   {path:'contato', component:ContatoComponent },
   {path:'gamestore', component:GamestoreAppComponent },
@@ -34,7 +34,7 @@ const routes: Routes = [
   {path:'termos', component:TermosComponent },
   {path:'trocas', component: TrocasComponent},
   {path:'login', component: LoginComponent},
-  {path: '', component: AppComponent}
+  {path: '', component: GamestoreAppComponent}
 ];
 
 @NgModule({
