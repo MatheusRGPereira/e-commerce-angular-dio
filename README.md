@@ -1,27 +1,44 @@
-# ECommerceDio
+# Site Criado para a realização do Projeto integrador Utilizando o Framework Angular feito através do Bootcamp da Geração Tech Unimed 📖🟢
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
-## Development server
+ #### ✅ - Consumo da api E-commerce
+ * Link da api no heroku https://e-commerce-dio.herokuapp.com/swagger-ui/index.html
+ * Foi criada uma camada de service onde realizamos a Integração com a api
+ * Utilizando os endPoints 
+ 
+ 
+ #### ✔️ - Criação dos Components
+ * Component de navbar para a criação do cabeçalho da pagina e navbar
+ * Component de footer para criar o rodapé da pagina e as informações do site
+ * Component de Home onde esta a pagina principal da pagina, onde o usuario encontra os produtos da loja
+ * Component de login e cadastro (esses componentes são meramente ilustrativos, porque o objetivo desse projeto era desenvolver mais a parte visual com o bootstrap)
+  
+   
+  
+ #### 🔨 - A realização dos testes foram feitas todas no insominia
+ * Testes dos endpoints Get Produtos
+ * Testes dos endpoints GetbyId de Produto
+ * Testes dos endpoints Post de Produto
+ * Testes dos endpoints Put de Produto
+ * Testes dos endpoints Delete de Produto
+ 
+  #### 🔨 - Integração do swagger para deploy na plataforma heroku
+ * Foi Criada uma camada na aplicação fazendo a configuração do swagger com os endpoints
+ * Foi feito o deploy da api Utilziando a plataforma do heroku, onde disponibilizamos em nuvem para fazer o consumo nessa etapa de front-end
+ 
+  ##### 🔨 - Link da aplicação no heroku
+  1. - Entre no link https://e-commerce-dio.herokuapp.com/swagger-ui/index.html
+  
+  
+  #### 🔨 - Demonstrativo dos endpoits de Produtos na plataforma do swagger
+  ![image](https://user-images.githubusercontent.com/100168699/201999953-e7a2c8e4-6e31-4eae-a3ab-11e01c6a1184.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+  ##### 🔨 - Link do site ja funcionando e feito o deploy pela plataforma do netlify
+ https://sparkling-selkie-82992f.netlify.app/
+ 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ 
+ 
+ 
+🎁 Obrigada @DIO pelos aprendizados nessa trilha 
